@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(219, 217, 217);
+    background: url(../images/retro-70s.jpg) no-repeat center center fixed;
+    background-repeat:  no-repeat;
+    background-position:  center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+section {
+    min-height: calc(100vh - 70px);
+    justify-content: space-evenly;
+    text-align: center;
+    width:100%;
+}
+.main-container {
+    padding-top: 10px;
+    margin-top: 25px;
+    background: lavenderblush;
+}
+
+.myh1 {
+    padding: 12px;
+    margin: 0 auto 50px;
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Righteous', cursive;
+
+}
+
+#clock, #question, #answers {
+    padding: 10px ;
+    font-family: 'Righteous', cursive;
+
+}
+
+#clock, #question {
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+
+}
+
+#answers {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+
+}
+#answers button {
+    margin: 0 auto;
+    width: 66%;
+    font-family: 'Righteous', cursive;
+
+}
+
+.my-correct {
+    width: 66%;
+    margin: 0 auto 10px;
+    font-family: 'Righteous', cursive;
+
+}
+.my-danger {
+    width: 75%; 
+    margin: 0 auto 10px;
+    font-family: 'Righteous', cursive;
+
+}
+
+video {
+    width:250px;
+    height:200px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    video {
+        width: 150px;
+        height: 120px;
+    }
+    #answers button {
+        width: 85%;
+    }
+    .my-correct {
+        width: 80%;
+    }
+    .my-danger {
+        width: 95%;
+    }
+}
+
